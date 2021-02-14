@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBT Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- navigation  -->
+<nav class="navigation-bar">
+    <img class="logo" src="https://www.ubt-uni.net/wp-content/uploads/2018/05/DCIMUNTLOGO123-6.png">
+    <a href="./Login-register.html">Login/Register</a>
+    <a href="./Contact-us.html">Contact Us</a>
+    <a href="./protofolio.html">Protofolio</a>
+    <a href="./services.html">Services</a>
+    <a href="./index.html">Home</a>
+</nav>
+<!-- navigation end  -->
+<!-- Login/register  -->
+<div class="content">
+<div class="content-main">
+  <h3><span>UBT MARKETING</span></h3>
+  <h2> Login or Register</h2>
+</div>
+</div>
+<div class="login-register-container">
+    <div class="link-container">
+      <a id="firstA" href="#" onclick="changeForm(0)">Login</a>
+      <a href="#" onclick="changeForm(1)">Register</a>
+    </div>
+    <form id="mainForm" action="">
+      <div class="login forms form-style">
+        <label for="">Username:</label>
+        <input type="text" class="input" id="username" placeholder="username..." required="required"/>
+        <label for="">Password:</label>
+        <input type="password" class="input" placeholder="password..."required="required"/>
+        <input class="submit" id="submit" type="submit" class="input submit" value="Login" onclick="validate(0)" />
+      </div>
+      <div class="register forms hidden">
+        <label for="">Name:</label>
+        <input id="Email" type="text" class="input" placeholder="username..." required />
+        <label for="">Password:</label>
+        <input class="input "type="password" id="txtPassword" placeholder="password..." required />
+        <label for="">Confirm Password:</label>
+        <input class="input "type="password" id="txtConfirmPassword" placeholder="password..." required />
+        <input class="submit" type="submit" id="btnSubmit" value="Submit" onclick="return Validate()" />
+      </div>
+    </form>
+  </div>
+
+  <!-- Login/register end-->
+<!-- Footer  -->
+<div class="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1> Your Digital Marketing Solution</h1>
+        <h2><span>UBT</span> Marketing</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a target="#" href="https://facebook.com/benardii"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+          </div>
+          <div class="social-item">
+            <a target="#" href="https://instagram.com/benard_hajrizi"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+          </div>
+          <div class="social-item">
+            <a target="#" href="https://instagram.com/benard_hajrizi"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+          </div>
+          <div class="social-item">
+            <a target="#" href="https://instagram.com/benard_hajrizi"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+          </div>
+        </div>
+        <p>Copyright © 2020 Benard Hajrizi.All rights reserved</p>
+      </div>
+    </div>
+</div>
+</div>
+
+<!-- Footer end  -->
+<script src="./main.js"></script>
+</body>
+</html>
